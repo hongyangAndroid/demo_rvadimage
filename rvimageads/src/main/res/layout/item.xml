@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_bg"
+    android:gravity="center">
+
+    <com.imooc.rvimageads.AdImageViewVersion1
+        android:id="@+id/id_iv_ad"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="matrix"
+        android:src="@mipmap/grsm"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_margin="12dp"
+        android:id="@+id/id_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="如何置顶公众号"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/id_tv_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_tv_title"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="12dp"
+        android:text="点击右侧头角，选择置顶公众号；点击右侧头角，选择置顶公众号；点击右侧头角，选择置顶公众号；点击右侧头角，选择置顶公众号；点击右侧头角，选择置顶公众号；" />
+
+</RelativeLayout>
